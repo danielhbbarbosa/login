@@ -7,8 +7,6 @@
 }
 
 body{ 
-	background: url('imagens/fundo-login.jpg') no-repeat center center;
-	background-size: cover;
 	height: 100vh;
 	width: 100vw;
 	display: flex;
@@ -17,9 +15,15 @@ body{
 }
 
 main {
+	background: url('imagens/fundo-login.jpg') no-repeat center center;
+	background-size: cover;
 	height: 33vh;
 	width: 50vw;
 	padding: 40px;
 	border-radius: 20px;
 	background-color: rgb(183, 182, 182);	
+}
+
+main > h1 {
+	color: #fff;
 }
