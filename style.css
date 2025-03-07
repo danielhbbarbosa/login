@@ -27,6 +27,7 @@ main {
 
 main > h1 {
 	color: #fff;
+	margin-bottom: 20px;
 }
 
 main > form {
